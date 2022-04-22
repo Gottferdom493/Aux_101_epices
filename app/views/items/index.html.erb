@@ -1,0 +1,17 @@
+
+<div class="banner_homepage">
+  <h1> Les épices </h1>
+</div>
+
+  <div class="container">
+    <div class="div">
+      <% @items.each do |item| %>
+        <div class="card_category">
+          <%# <h2><%= link_to famille.name, famille_items_path(famille) %>
+          <p><%= item.nom_epice %></p>
+          <p><%= item.info %></p>
+          <p><%= item.poids %></p>
+          <p><%= item.quantité %></p>
+          <p><%= item.prix %></p>
+
+      <% end %>
